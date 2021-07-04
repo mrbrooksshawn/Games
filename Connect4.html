@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Pop's Connect 4</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" charset="utf-8"></script>
+
+</head>
+<body>
+<h2 style="text-align: center; color: #005580; !important">Pop Pop's Connect 4</h2>
+<ul>
+    <li>Start as Player 1 and take your turn inside the box.</li>
+    <li>You cannot put your piece in a spot that is not at the bottom or does not have a piece below it.</li>
+    <li>If you take your turn and you did not win, it will be Player 2's turn.</li>
+    <li>The game will continue until a winning combination of 4 is reached by Player 1 or Player 2, or until the board is full and no winning combination was found.</li>
+    
+</ul>
+
+    <h3 style="text-align: center;">Go Player <span id="current-player" style="color: red;">1</span></h3>    
+    <h3 id="result"></h3>
+<br>
+<br>
+
+    <!-- 7 squares wide, 6 squares high, 7 secret squares at the bottom -->
+    <div class="grid"> <!--49 divs below-->
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+    </div>
+<br>
+<div class="button-container">
+    <button class="button" onclick=location.reload();>Play Again</button>
+</div>
+</body>
+</html>

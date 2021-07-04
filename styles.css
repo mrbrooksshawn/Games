@@ -1,0 +1,51 @@
+.grid {
+    margin: auto;
+    border: 4px solid #00b0ff;
+    height: 120px;
+    width: 140px;
+    background-image: white;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 5px 5px grey;  
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.player-one {
+    background-color: #ff4f00;
+    border-radius: 10px;
+}
+
+.player-two {
+    background-color: #00b0ff;
+    border-radius: 10px;
+}
+
+body {
+    text-align: left;
+    height: auto;
+    background-image: url(LilShawn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+}
+
+.button {
+    background-image: linear-gradient(to top,#00b0ff, #ffffff);
+    border-radius: 50px;
+    border-color: #00b0ff;
+    padding: 10px;
+    font-size: 16px;
+    color: red;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+.button-container {
+    text-align: center;
+    padding-top: 50px;
+}
