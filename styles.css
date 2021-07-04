@@ -27,7 +27,10 @@
 body {
     text-align: left;
     height: auto;
-    background-image: linear-gradient(to top,#00b0ff, #ffffff);    
+    background-image: linear-gradient(to top,#00b0ff, #ffffff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
 }
 
 .button {
